@@ -18,11 +18,22 @@ public class Worker {
     public Worker() {
     }
 
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
     public Worker(String name, WorkerLevel level, Double baseSalary) {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
 
+    }
+
+    public Worker(String workName, WorkerLevel workerLevel, double basySalary, Department department) {
     }
 
     public String getName() {
@@ -74,7 +85,11 @@ public class Worker {
         }
         return soma;
     }
+
+
 }
+
+
 
 
 
