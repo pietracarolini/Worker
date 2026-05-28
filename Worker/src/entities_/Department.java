@@ -7,11 +7,15 @@ public class Department {
     public Department() {
     }
 
-    public String getName() {
-        return name;
+    public Department(String name) {
+        this.name = name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+       return name;
     }
 }
