@@ -1,9 +1,3 @@
-package entities_;
-
-import java.time.LocalDate;
-import java.util.Date;
-
-
 
     public class HourContract {
         private Date date;
@@ -33,5 +27,6 @@ import java.util.Date;
             return valuePerHour * hours;
         }
     }
+
 
 
